@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/PermissionHelper.iml" filepath="$PROJECT_DIR$/PermissionHelper.iml" />
+      <module fileurl="file://C:\Work\Project\Others\code\github_code\PermissionHelper\permissionhelper-sample\app.iml" filepath="C:\Work\Project\Others\code\github_code\PermissionHelper\permissionhelper-sample\app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/permission-helper/permission-helper.iml" filepath="$PROJECT_DIR$/permission-helper/permission-helper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/permissionhelper-sample/permissionhelper-sample.iml" filepath="$PROJECT_DIR$/permissionhelper-sample/permissionhelper-sample.iml" />
+    </modules>
+  </component>
+</project>

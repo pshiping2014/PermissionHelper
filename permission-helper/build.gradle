@@ -33,7 +33,7 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 }
 // 根节点添加
-version = "0.2"
+version = "1.0.1"
 
 // 根节点添加
 def siteUrl = 'https://github.com/pshiping2014/PermissionHelper'    // project homepage
@@ -85,7 +85,7 @@ task javadoc(type: Javadoc) {
 }
 
 javadoc {
-    options{
+    options {
         encoding "UTF-8"
         charSet 'UTF-8'
         author true
@@ -107,7 +107,7 @@ artifacts {
 
 Properties properties = new Properties()
 boolean isHasFile = false
-if (project.rootProject.file('local.properties') != null){
+if (project.rootProject.file('local.properties') != null) {
     isHasFile = true
     properties.load(project.rootProject.file('local.properties').newDataInputStream())
 }
@@ -117,7 +117,8 @@ bintray {
     configurations = ['archives']
     pkg {
         repo = "maven"
-        name = "PermissionHelper"                                                 // #CONFIG# project name in jcenter
+        name = "PermissionHelper"
+        // #CONFIG# project name in jcenter
         websiteUrl = siteUrl
         vcsUrl = gitUrl
         licenses = ["Apache-2.0"]

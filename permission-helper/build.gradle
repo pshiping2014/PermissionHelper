@@ -9,7 +9,7 @@ android {
         minSdkVersion 15
         targetSdkVersion 26
         versionCode 2
-        versionName "1.1"
+        versionName "1.2"
         multiDexEnabled true //important
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
@@ -33,14 +33,14 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 }
 // 根节点添加
-version = "1.0.1"
+version = "1.0.0"
 
 // 根节点添加
 def siteUrl = 'https://github.com/pshiping2014/PermissionHelper'    // project homepage
 def gitUrl = 'https://github.com/pshiping2014/PermissionHelper.git' // project git
 
 // 根节点添加
-group = "com.psp"
+group = "com.psp.permission"
 
 // 根节点添加
 install {
@@ -116,8 +116,8 @@ bintray {
     key = isHasFile ? properties.getProperty("bintray.apikey") : System.getenv("bintray.apikey")
     configurations = ['archives']
     pkg {
-        repo = "maven"
-        name = "PermissionHelper"
+        repo = "androidMaven"
+        name = "AndroidPermission"
         // #CONFIG# project name in jcenter
         websiteUrl = siteUrl
         vcsUrl = gitUrl
